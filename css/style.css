@@ -202,6 +202,12 @@ padding-bottom: 50px;
   text-align: center;
   }
 
+ .team img{
+  text-align: center;
+  display : block;
+  margin : auto;
+ }
+
 /* MEET THE TEAM CSS END */
 
 /* GALLERY CSS START */
