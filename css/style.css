@@ -189,23 +189,34 @@ padding-bottom: 50px;
 /* ACTIVITIES END */
 /* MEET THE TEAM CSS START */
 .team{
-  height: 600px;
+  min-height: 600px;
   width: 100%;
   background-color: white;
   }
-  .team h2{
+  .team h2,h3{
   text-align: center;
   padding-top: 100px;
   }
-  
+  .team h5{
+    text-align: center;
+  }
   .team p{
   text-align: center;
   }
 
  .team img{
   text-align: center;
+  width: 200px;
+  height: auto;
   display : block;
   margin : auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+ }
+
+ 
+ .card{
+   border: none !important;
  }
 
 /* MEET THE TEAM CSS END */
@@ -256,6 +267,12 @@ padding-right: 10px;
 
 .contact a{
   text-decoration: none !important;
+}
+
+.contact img{
+  width: 200px;
+  display : block;
+  margin : auto;
 }
 
 /* CONTACT CSS END */
