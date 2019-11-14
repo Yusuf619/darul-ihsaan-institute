@@ -236,11 +236,11 @@ padding-bottom: 50px;
   bottom: 0;
   left: 0;
   right: 0;
-  height: auto;
+  height: 295px;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+  transition: .3s ease;
+  background-color: #8cf2d0;
 }
 
 .card:hover .overlay {
@@ -257,6 +257,13 @@ padding-bottom: 50px;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+
+image {
+  display: block;
+  width: 200px;
+  height: auto;
 }
  /* OVERLAY CSS END */
 /* MEET THE TEAM CSS END */
@@ -340,6 +347,12 @@ padding-right: 10px;
   font-weight: lighter;
   padding-top: 50px;
 
+}
+
+.icon{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 35px;
 }
 /* FOOTER CSS END */
 
