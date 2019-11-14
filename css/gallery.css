@@ -79,36 +79,7 @@ body{
 /* GALLERY CSS END */
     
 
-    /* CONTACT CSS START */
 
-
-.contact{
-    width: 100%;
-    min-height: 500px;
-    background-color: whitesmoke ;
-    padding-bottom: 50px;
-  }
-  
-  .contact h2{
-    text-align: center;
-    padding-top: 100px;
-  }
-  
-  .contact p {
-    text-align: center;
-    font-size: 20px;
-    padding-top: 20px
-  }
-  
-  .contact i{
-  padding-right: 10px;
-  }
-  
-  .contact a{
-    text-decoration: none !important;
-  }
-  
-  /* CONTACT CSS END */
 
   hr{
     background-color: #818489;
