@@ -25,6 +25,10 @@ hr{
   margin-bottom: 100px;
 }
 
+.hr1{
+  background-color: #8cf2d0;
+  font-weight: lighter;
+}
 /* NAVBAR CSS START */
 .navbar-brand img{
   width: 40px;
@@ -195,7 +199,8 @@ padding-bottom: 50px;
   }
   .team h2,h3{
   text-align: center;
-  padding-top: 100px;
+  padding-top: 80px;
+  font-weight: lighter;
   }
   .team h5{
     text-align: center;
@@ -241,6 +246,13 @@ padding-bottom: 50px;
   opacity: 0;
   transition: .3s ease;
   background-color: #8cf2d0;
+}
+
+.overlay i{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 20px;
 }
 
 .card:hover .overlay {
@@ -336,6 +348,7 @@ padding-right: 10px;
 .footer{
   text-align: center;
   padding-top: 35px;
+  background-color: whitesmoke;
 }
 
 .icons{
@@ -386,6 +399,14 @@ padding-right: 10px;
 @media screen and (max-width: 600px) {
   .activities li{
    text-align: center !important;
+ 
+
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .overlay{
+  display: none;
  
 
   }
